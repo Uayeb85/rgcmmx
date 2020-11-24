@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{CZPu:function(n,e,t){"use strict";t.r(e);var o=t("KHd+"),s=Object(o.a)({},(function(){var n=this.$createElement;return(this._self._c||n)("Layout",[this._v("\n    Tu mensaje se envio en breve nos comunicamos contigo\n")])}),[],!1,null,null,null);e.default=s.exports}}]);

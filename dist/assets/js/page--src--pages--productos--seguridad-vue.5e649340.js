@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{"1RDH":function(e,n,t){"use strict";t.r(n);var l=t("KHd+"),s=Object(l.a)({},(function(){var e=this.$createElement;return(this._self._c||e)("layout",[this._v("\n    Hola desde Seguridad\n")])}),[],!1,null,null,null);n.default=s.exports}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{tuzr:function(t,n,e){"use strict";e.r(n);var s=e("KHd+"),l=Object(s.a)({},(function(){var t=this.$createElement;return(this._self._c||t)("layout",[this._v("\n    Hola desde Activos Opticos\n")])}),[],!1,null,null,null);n.default=l.exports}}]);
