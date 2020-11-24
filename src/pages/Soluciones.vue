@@ -4,7 +4,7 @@
             <h2 class="font-bold text-5xl  text-red-700  sm:pb-8">
                         Soluciones
             </h2>
-        </div>
+        </div> 
         <section>
             <div v-for="solucion in $page.soluciones.edges" :key="solucion.id" class="px-16 py-8 sm:px-24 sm:py-12  bg-white">
             

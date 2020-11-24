@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
-    <header>
-      <nav>
-        <NavBar />
+    <header  >
+      <nav >
+        <NavBar   />
       </nav>
     </header>
 
@@ -41,4 +41,8 @@ export default {
 }
 </script>
 
+<style >
 
+
+
+</style>

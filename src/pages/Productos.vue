@@ -3,7 +3,7 @@
         <div class="w-full text-center">
             <h2 class="font-bold text-5xl  text-red-700  sm:pb-8">
                         Productos
-            </h2>
+            </h2> 
         </div>
         <div class="container my-12 mx-auto px-4 md:px-12">
 

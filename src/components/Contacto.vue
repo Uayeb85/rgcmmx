@@ -1,5 +1,5 @@
 <template>
-    <section class="text-gray-700 body-font relative" id="contacto">
+    <section class="text-gray-700 body-font relative " id="contacto">
         <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
             <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.716785391275!2d-99.1753281855041!3d19.393663998541893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff718f4416e1%3A0x6e35698f0852629c!2sWorld%20Trade%20Center%20Ciudad%20de%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1599588633160!5m2!1ses-419!2smx" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>

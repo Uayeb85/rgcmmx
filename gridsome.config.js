@@ -4,7 +4,13 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const tailwindcss = require("tailwindcss")
+const purgecss = require('@fullhuman/postcss-purgecss')
 
+const postcssPlugins = [
+  tailwindcss(),
+]
+
+if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 module.exports = {
   siteName: 'REGUCOM',
@@ -43,12 +49,10 @@ module.exports = {
   },
   css: {
     loaderOptions: {
-      postcss: {
-        plugins: [
-          tailwindcss
-        ],
-      },
+        postcss: {
+            plugins: postcssPlugins,
+        },
     },
-  }
+},
 
 }

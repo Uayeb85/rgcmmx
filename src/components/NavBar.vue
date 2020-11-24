@@ -1,4 +1,4 @@
-<template>
+<template >
   <header class="bg-white sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-4">
       <div class="flex items-center justify-between px-4 py-4 sm:p-0">
         <div>
@@ -38,3 +38,8 @@ export default {
     }
 }
 </script>
+
+<style >
+
+
+</style>
