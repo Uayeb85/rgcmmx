@@ -12,7 +12,7 @@
             <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                 <div class="flex">
                     <h2 v-for="categoria in $page.producto.categoria" :key="categoria.id" class="text-sm title-font text-gray-500 tracking-widest mr-3">
-                        {{categoria.title}}
+                       <g-link :to="`/productos/${categoria.slug}`"> {{categoria.title}} </g-link> 
                     </h2>
                 </div>
                 <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">{{$page.producto.title}}</h1>
@@ -76,7 +76,7 @@
         </div>
     </layout>
 </template>
-
+ 
 
 <page-query>
 query Producto ($path: String!) {
@@ -87,6 +87,7 @@ query Producto ($path: String!) {
         }
         categoria{
           title
+          slug
         }
         title
         fichaTecnica{

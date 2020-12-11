@@ -1,5 +1,5 @@
-const c1 = () => import(/* webpackChunkName: "page--src--templates--contentful-crc-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/ContentfulCrc.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--templates--contentful-fibra-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/ContentfulFibra.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--templates--contentful-pasopticos-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/ContentfulPasopticos.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--templates--contentful-crc-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/ContentfulCrc.vue")
 const c3 = () => import(/* webpackChunkName: "page--src--pages--soluciones--sistema-de-aprovisionamiento-olt-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Soluciones/Sistema-de-aprovisionamiento-olt.vue")
 const c4 = () => import(/* webpackChunkName: "page--src--pages--soluciones--titan-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Soluciones/Titan.vue")
 const c5 = () => import(/* webpackChunkName: "page--src--pages--productos--seguridad-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Productos/Seguridad.vue")
@@ -21,23 +21,24 @@ const c20 = () => import(/* webpackChunkName: "page--src--pages--productos--cone
 const c21 = () => import(/* webpackChunkName: "page--src--pages--productos--construccion-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Productos/Construccion.vue")
 const c22 = () => import(/* webpackChunkName: "page--src--pages--productos--activos-opticos-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Productos/Activos-opticos.vue")
 const c23 = () => import(/* webpackChunkName: "page--src--templates--contentful-post-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/ContentfulPost.vue")
-const c24 = () => import(/* webpackChunkName: "page--src--templates--blog-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/Blog.vue")
-const c25 = () => import(/* webpackChunkName: "page--src--pages--servicios-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Servicios.vue")
-const c26 = () => import(/* webpackChunkName: "page--src--pages--soluciones-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Soluciones.vue")
-const c27 = () => import(/* webpackChunkName: "page--src--pages--productos-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Productos.vue")
-const c28 = () => import(/* webpackChunkName: "page--src--pages--nosotros-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Nosotros.vue")
-const c29 = () => import(/* webpackChunkName: "page--src--pages--exito-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Exito.vue")
-const c30 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Blog.vue")
-const c31 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/uayeb/Escritorio/rgcmmx/node_modules/gridsome/app/pages/404.vue")
-const c32 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Index.vue")
+const c24 = () => import(/* webpackChunkName: "page--src--templates--contentful-fibra-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/ContentfulFibra.vue")
+const c25 = () => import(/* webpackChunkName: "page--src--templates--blog-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/templates/Blog.vue")
+const c26 = () => import(/* webpackChunkName: "page--src--pages--servicios-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Servicios.vue")
+const c27 = () => import(/* webpackChunkName: "page--src--pages--soluciones-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Soluciones.vue")
+const c28 = () => import(/* webpackChunkName: "page--src--pages--productos-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Productos.vue")
+const c29 = () => import(/* webpackChunkName: "page--src--pages--nosotros-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Nosotros.vue")
+const c30 = () => import(/* webpackChunkName: "page--src--pages--exito-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Exito.vue")
+const c31 = () => import(/* webpackChunkName: "page--src--pages--blog-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Blog.vue")
+const c32 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/uayeb/Escritorio/rgcmmx/node_modules/gridsome/app/pages/404.vue")
+const c33 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/uayeb/Escritorio/rgcmmx/src/pages/Index.vue")
 
 export default [
   {
-    path: "/productos/head-end/:slug/",
+    path: "/productos/pasivos-opticos/:slug/",
     component: c1
   },
   {
-    path: "/productos/fibras-opticas/:slug/",
+    path: "/productos/head-end/:slug/",
     component: c2
   },
   {
@@ -125,46 +126,50 @@ export default [
     component: c23
   },
   {
-    path: "/blog/:title/",
+    path: "/fibras-opticas/:slug/",
     component: c24
   },
   {
-    path: "/servicios/",
+    path: "/blog/:title/",
     component: c25
   },
   {
-    path: "/soluciones/",
+    path: "/servicios/",
     component: c26
   },
   {
-    path: "/productos/",
+    path: "/soluciones/",
     component: c27
   },
   {
-    path: "/nosotros/",
+    path: "/productos/",
     component: c28
   },
   {
-    path: "/exito/",
+    path: "/nosotros/",
     component: c29
   },
   {
-    path: "/blog/",
+    path: "/exito/",
     component: c30
+  },
+  {
+    path: "/blog/",
+    component: c31
   },
   {
     name: "404",
     path: "/404/",
-    component: c31
+    component: c32
   },
   {
     name: "home",
     path: "/",
-    component: c32
+    component: c33
   },
   {
     name: "*",
     path: "*",
-    component: c31
+    component: c32
   }
 ]
