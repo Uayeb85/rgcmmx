@@ -43,7 +43,7 @@
             <div class="container px-5 py-10 mx-auto">
                 <div class="flex flex-wrap -m-4">
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                             <p class="text-3xl">1</p>
                         </div>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                               <p class="text-3xl">2</p>
 
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                               <p class="text-3xl">3</p>
 
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                               <p class="text-3xl">4</p>
 
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                             <p class="text-3xl">5</p>
 
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                             <p class="text-3xl">6</p>
 
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                             <p class="text-3xl">7</p>
 
@@ -141,7 +141,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                             <p class="text-3xl">8</p>
 
@@ -156,7 +156,7 @@
                         </div>
                     </div>
                     <div class="xl:w-1/3 md:w-1/2 p-4">
-                        <div class="border border-gray-300 p-6 rounded-lg">
+                        <div class="border border-gray-300 p-6 rounded-lg h-full">
                         <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-100 text-red-500 mb-4">
                             <p class="text-3xl">9</p>
 
@@ -242,10 +242,13 @@
 
 @media only screen and (min-width: 0px)  and (max-width: 768px) {
 .image-bg{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(197,48,48,1) 0%, rgba(229,62,62,1) 82.8% );
-    }
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#c53030 0.55px, #ffffff 0.55px);
+    background-size: 11px 11px;   
+ }
 
-    .bg-image{
+.bg-image{
         height: 50vh;
     }
 .no{
@@ -255,10 +258,13 @@
 
 @media only screen and (min-width: 769px)  and (max-width: 2900px) {
 .image-bg{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(197,48,48,1) 0%, rgba(229,62,62,1) 82.8% );
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#c53030 0.55px, #ffffff 0.55px);
+    background-size: 11px 11px;
     }
 
-    .bg-image{
+.bg-image{
         height: 50vh;
     }
 

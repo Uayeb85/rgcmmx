@@ -49,7 +49,7 @@
 
 <page-query>
 query{
- productos: allContentfulCrc (sortBy: "date", order: ASC){
+ productos: allContentfulActopticos (sortBy: "date", order: ASC){
     edges{
       node{
         title

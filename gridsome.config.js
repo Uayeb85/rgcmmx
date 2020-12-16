@@ -39,6 +39,7 @@ module.exports = {
   templates:{
     ContentfulCrc: '/productos/head-end/:slug',
     ContentfulPasopticos: '/productos/pasivos-opticos/:slug',
+    ContentfulActopticos: '/productos/activos-opticos/:slug',
     ContentfulFibra:'/fibras-opticas/:slug',
     ContentfulPost: '/post/:slug',
     Blog:[
