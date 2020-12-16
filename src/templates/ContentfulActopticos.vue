@@ -3,7 +3,7 @@
       <div>
         <section class="text-gray-700 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
-              <g-link to="/productos/head-end/" >
+              <g-link to="/productos/activos-opticos/" >
                  <button class="flex  text-white bg-black border-0 py-2 px-6 mb-8 focus:outline-none hover:bg-red-700 rounded">Regresar</button>
               </g-link>     
 
