@@ -110,12 +110,10 @@
             </div>
         </div>
         </section>
-        <div class="w-full text-center">
-            <h2 class="font-bold text-5xl  text-red-700  sm:pb-8 mt-10">
-                        Solución Total
-            </h2> 
-        </div>
+
         <Solucion />
+
+
     </layout>
 </template> 
 
