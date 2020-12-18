@@ -1,5 +1,5 @@
 <template>
-    <section class="text-gray-700 body-font image-bg">
+    <section class="text-gray-700 body-font image-bg pb-10">
         <div class="w-full text-center">
             <h2 class="font-bold text-5xl  text-red-700  sm:pb-8 pt-10">
                         Solución Total
@@ -129,10 +129,10 @@
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                 <g-link to="/productos/herramientas/"  class="block relative h-48 rounded overflow-hidden">
-                <g-image alt="ecommerce" class="bg-white object-cover object-center w-full h-full block" src="https://res.cloudinary.com/uayeb/image/upload/v1608231983/herramientas/fiber_cleaver_wese7r.webp" />
+                <g-image alt="ecommerce" class="bg-white object-cover object-center w-full h-full block" src="https://res.cloudinary.com/uayeb/image/upload/v1608311435/instalaciones/lapiz_limpiador_ynntnm.webp" />
                 </g-link>
                 <div class="mt-4 bg-red-700">
-                <g-link to="/productos/herramientas/"> <h2 class="text-center text-white title-font text-lg font-medium">Herramientas Instalación</h2>  </g-link> 
+                <g-link to="/productos/herramientas/"> <h2 class="text-center text-white title-font text-lg font-medium">Limpieza</h2>  </g-link> 
                 </div>
             </div>
             </div>

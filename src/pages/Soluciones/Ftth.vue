@@ -113,6 +113,41 @@
 
         <Solucion />
 
+        <section class="text-gray-700 body-font">
+        <div class="container px-5 py-10 mx-auto flex flex-wrap">
+            <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden md:flex md:items-center">
+            <g-image alt="sistema_aprovisionamiento_olt" class=" object-cover object-center h-64 w-full" src="https://res.cloudinary.com/uayeb/image/upload/v1608308816/soluciones/softwareregucom_k83cyy.webp" />
+            </div>
+            <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex-grow">
+                <p class="leading-relaxed text-base">-Aprovisiona de manera simple y sencilla tus ONTs.</p>
+                </div>
+            </div>
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex-grow">
+                <p class="leading-relaxed text-base">-Solución basada en la Nube,funciona en cualquier plataforma, Windows, Linux, MacOs, Android, iOs.</p>
+
+                </div>
+            </div>
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex-grow">
+                <p class="leading-relaxed text-base">-Mejoaramiento de Manejo Red PON Aprovisionamiento, autorización, manejo OLT y ONU a nivel profesional pero a un costo accesible.</p>
+
+                </div>
+            </div>
+            <div class="flex flex-col mb-10 lg:items-start items-center">
+                <div class="flex-grow">
+                <p class="leading-relaxed text-base">-Basta con tener acceso a internet para poder tener el control de tus OLTs. Nada que instalar. Cero inversión en equipos.</p>
+
+                </div>
+            </div>
+            </div>
+
+        </div>
+            <a href="mailto:gustars@regucom.com.mx?subject=Quiero%realizar%la%prueba%del%sistema%de%OLT">  <button class="flex mx-auto  text-white bg-red-700 border-0 py-2 px-2 focus:outline-none hover:bg-red-600 rounded text-lg">Pruébalo por 30 días sin costo</button> </a>
+
+        </section>
 
     </layout>
 </template> 
