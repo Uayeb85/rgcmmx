@@ -13,6 +13,7 @@
            <Marcas v-for="edge in $page.marcas.edges" :key="edge.node.id" :marca="edge.node"  class="ml-4 mr-4 pb-8"/>
        </div>
     </section>
+
     <section>
         <div>      
           <div class="bannerFondo bg-red-700">
@@ -29,6 +30,8 @@
           </div> 
        </div>
     </section>
+
+
 
 
 

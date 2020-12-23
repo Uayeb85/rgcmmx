@@ -19,9 +19,9 @@
                 <p class="leading-relaxed">{{$page.producto.fichaTecnica.description}}</p>
                     <div class="flex mt-8 justify-between botones">
                         <g-link :to="$page.producto.fichaTecnica.file.url"> <button class="flex boton  text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-black rounded">Ficha Técnica</button> </g-link>
-
-                            <button class="flex  text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-red-700 rounded">Contacta a un asesor</button>
-
+                         <a href="mailto:gustars@regucom.com.mx">
+                        <button class="flex  text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-red-700 rounded">Contacta a un asesor</button>
+                        </a>
                     </div>
                         
             </div>

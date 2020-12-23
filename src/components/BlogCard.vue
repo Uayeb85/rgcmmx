@@ -21,7 +21,7 @@
           
 </template>
 
-<script>
+<script> 
 export default {
   name: 'BlogCard',
   props: {
